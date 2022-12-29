@@ -1,0 +1,30 @@
+:host{
+    .mat-icon {
+        vertical-align: middle;
+        margin-right: 20px
+    }
+}
+
+.profile-card {
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    
+}
+img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.myColorSide{
+    background-color: #000;
+    color: #ffffff;
+}
+
+.mat-list-item.List-item-active{
+    color: #ff6600;
+ }
+
+  .mat-list-item{
+    color: rgb(255, 255, 255);
+  }

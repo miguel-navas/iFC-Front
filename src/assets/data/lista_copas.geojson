@@ -1,0 +1,308 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -56,
+            -33
+          ]
+        },
+        "properties": {
+          "countrie": "Uruguai",
+          "ano": 1930
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.83333333,
+            42.83333333
+          ]
+        },
+        "properties": {
+          "countrie": "Itália",
+          "ano": 1934
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2,
+            46
+          ]
+        },
+        "properties": {
+          "countrie": "França",
+          "ano": 1938
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -55,
+            -10
+          ]
+        },
+        "properties": {
+          "countrie": "Brasil",
+          "ano": 1950
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8,
+            47
+          ]
+        },
+        "properties": {
+          "countrie": "Suíça",
+          "ano": 1954
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15,
+            62
+          ]
+        },
+        "properties": {
+          "countrie": "Suécia",
+          "ano": 1958
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71,
+            -30
+          ]
+        },
+        "properties": {
+          "countrie": "Chile",
+          "ano": 1962
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2,
+            54
+          ]
+        },
+        "properties": {
+          "countrie": "Inglaterra",
+          "ano": 1966
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -102,
+            23
+          ]
+        },
+        "properties": {
+          "countrie": "México",
+          "ano": 1970
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9,
+            51
+          ]
+        },
+        "properties": {
+          "countrie": "Alemanha Ocidental",
+          "ano": 1974
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -64,
+            -34
+          ]
+        },
+        "properties": {
+          "countrie": "Argentina",
+          "ano": 1978
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4,
+            40
+          ]
+        },
+        "properties": {
+          "countrie": "Espanha",
+          "ano": 1982
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -102.1,
+            23.1
+          ]
+        },
+        "properties": {
+          "countrie": "Mexico",
+          "ano": 1986
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.85,
+            42.85
+          ]
+        },
+        "properties": {
+          "countrie": "Itália",
+          "ano": 1990
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97,
+            38
+          ]
+        },
+        "properties": {
+          "countrie": "Estados Unidos",
+          "ano": 1994
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.1,
+            46.1
+          ]
+        },
+        "properties": {
+          "countrie": "França",
+          "ano": 1998
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            127.5,
+            37
+          ]
+        },
+        "properties": {
+          "countrie": "Coréia do Sul",
+          "ano": 2002
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138,
+            36
+          ]
+        },
+        "properties": {
+          "countrie": "Japão",
+          "ano": 2002
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.1,
+            51.1
+          ]
+        },
+        "properties": {
+          "countrie": "Alemanha",
+          "ano": 2006
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            24,
+            -29
+          ]
+        },
+        "properties": {
+          "countrie": "Africa do Sul",
+          "ano": 2010
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -55.9,
+            -10.9
+          ]
+        },
+        "properties": {
+          "countrie": "Brasil",
+          "ano": 2014
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            37.61,
+            55.75
+          ]
+        },
+        "properties": {
+          "countrie": "Rússia",
+          "ano": 2018
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.25,
+            25.5
+          ]
+        },
+        "properties": {
+          "countrie": "Catar",
+          "ano": 2022
+        }
+      }
+    ]
+}

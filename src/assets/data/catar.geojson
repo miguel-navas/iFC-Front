@@ -1,0 +1,123 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.532438,
+            25.235312
+          ]
+        },
+        "properties": {
+          "countrie": "Al Thumama Football Stadium",
+          "ano": [2022]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.548313,
+            25.150188
+          ]
+        },
+        "properties": {
+          "countrie": "Al Janoub Stadium",
+          "ano": [2022]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.487813,
+            25.652188
+
+          ]
+        },
+        "properties": {
+          "countrie": "Al Bayt Stadium",
+          "ano": [2022]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.340187,
+            25.330188
+
+          ]
+        },
+        "properties": {
+          "countrie": "Ahmad bin Ali Stadium",
+          "ano": [2022]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.424437,
+            25.310812
+
+          ]
+        },
+        "properties": {
+          "countrie": "Estádio Cidade da Educação",
+          "ano": [2022]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.566312,
+            25.289063
+
+          ]
+        },
+        "properties": {
+          "countrie": "Stadium 974",
+          "ano": [2022]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.448062,
+            25.263562
+
+          ]
+        },
+        "properties": {
+          "countrie": "Estádio Internacional Khalifa",
+          "ano": [2022]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.490313,
+            25.420687
+
+          ]
+        },
+        "properties": {
+          "countrie": "Lusail Stadium",
+          "ano": [2022]
+        }
+      }
+    ]
+}

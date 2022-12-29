@@ -3,9 +3,12 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "iFC-Front": {
+    "ifutebolclube": {
       "projectType": "application",
       "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
         "@schematics/angular:application": {
           "strict": true
         }
@@ -17,17 +20,20 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/i-fc-front",
+            "outputPath": "dist/ifutebolclube",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "./node_modules/leaflet/dist/leaflet.css",
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -66,12 +72,16 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "ifutebolclube:build",
+            "proxyConfig": "src/proxy.conf.json"
+          },
           "configurations": {
             "production": {
-              "browserTarget": "iFC-Front:build:production"
+              "browserTarget": "ifutebolclube:build:production"
             },
             "development": {
-              "browserTarget": "iFC-Front:build:development"
+              "browserTarget": "ifutebolclube:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +89,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "iFC-Front:build"
+            "browserTarget": "ifutebolclube:build"
           }
         },
         "test": {
@@ -89,12 +99,19 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+              {
+                "glob": "**/*",
+                "input": "node_modules/leaflet/dist/images/",
+                "output": "./assets"
+              }
             ],
             "scripts": []
           }
@@ -102,5 +119,5 @@
       }
     }
   },
-  "defaultProject": "iFC-Front"
+  "defaultProject": "ifutebolclube"
 }

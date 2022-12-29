@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+  }
+  
+  /* visited link */
+  a:visited {
+    text-decoration: none;
+    color: #a0a0a0;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    font-weight: bold;
+    color: rgb(253, 122, 0);
+  }
+ 
+  .pop{
+      color: #b8b9b8;
+      font-size: small;
+      font-weight: bold;
+  }
+
+  .leaflet-popup-content-wrapper, .leaflet-popup.tip {
+    background-color: #420101
+  }

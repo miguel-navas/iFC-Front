@@ -1,0 +1,40 @@
+<mat-card>
+    <mat-card-content>
+      <br>
+      <table class="table">
+        <tr >
+          <td class="tbl2">rodada</td>
+          <td class="tbl2">diaSemana</td>
+          <td class="tbl2">data</td>
+          <td class="tbl2">estadio</td>
+          <td class="tbl2">hora</td>
+          <td class="tbl2">t1</td>
+          <td class="tbl2">p1</td>
+          <td class="tbl2">t2</td>
+          <td class="tbl2">p2</td>
+          <td class="tbl2">&nbsp;</td>
+          <td class="tbl2">&nbsp;</td>
+        </tr>
+        <tr *ngFor="let jogos of todosJogos | async">
+          <td class="tbl2">{{jogos.rodada}}</td>
+          <td class="tbl2">{{jogos.diaSemana}}</td>
+          <td class="tbl2">{{jogos.data}}</td>
+          <td class="tbl2">{{jogos.estadio}}</td>
+          <td class="tbl2">{{jogos.hora}}</td>
+          <td class="tbl2">{{jogos.t1}}</td>
+          <td class="tbl2">{{jogos.p1}}</td>
+          <td class="tbl2">{{jogos.t2}}</td>
+          <td class="tbl2">{{jogos.p2}}</td>
+          <td class="tbl2">
+            <!-- <button type="button" class="btn btn-info" matTooltip="Click Edit Button"
+              (click)="loadUsuarioToEdit(usuario.Id)">Editar</button> -->
+          </td>
+          <td class="tbl2">
+            <!-- <button type="button" class="btn btn-danger" matTooltip="Click Delete Button"
+              (click)="deleteUsuario(usuario.Id)">Excuir</button>
+          </td> -->
+        </tr>
+
+      </table>
+    </mat-card-content>
+    </mat-card>

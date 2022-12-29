@@ -1,0 +1,42 @@
+:host{
+    padding: 10px 10px 0px 10px;
+}
+
+.container {
+  margin: 5px;
+}
+
+.item {
+  border-radius: 0.2em;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.5em;
+  text-transform: uppercase;
+  margin: 0.1em;
+}
+
+.item-1 {
+  background-color: #aaaaaa;
+  text-align: center;
+}
+
+.item-2 {
+  background-color: #d4d3d3;
+  text-align: center;
+}
+
+.item-3 {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.item-4 {
+  background-color: #d4d3d3;
+  text-align: center;
+}
+
+#mat-divider {
+  margin: 2px;
+}

@@ -1,0 +1,18 @@
+ul li{
+    list-style: none;
+}
+
+.myColor{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: 'Space age';
+    src: url('/assets/font/space age.ttf') format('truetype');
+  }
+
+.font-space-age{
+    font-family: 'Space age';
+    font-size: large;
+}
